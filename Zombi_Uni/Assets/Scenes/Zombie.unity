@@ -282,13 +282,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160407511}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.20167486, y: -0, z: -0, w: 0.97945255}
-  m_LocalPosition: {x: -0.92, y: 3.8788998, z: -9.406899}
+  m_LocalRotation: {x: -0.043619405, y: 0, z: 0, w: 0.9990483}
+  m_LocalPosition: {x: -0.92, y: 6.34, z: -9.73}
   m_LocalScale: {x: 1, y: 1, z: 1.8301626}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -23.27, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -5, y: 0, z: 0}
 --- !u!1001 &383747545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -625,6 +625,8 @@ MonoBehaviour:
   - {fileID: 440565372}
   - {fileID: 1750010057}
   selectedZombie: {fileID: 0}
+  selectedSize: {x: 1.3, y: 1.3, z: 1.3}
+  pushForce: {x: 0, y: 100, z: 100}
 --- !u!4 &1569362645
 Transform:
   m_ObjectHideFlags: 0
@@ -905,13 +907,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101627404}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.88, z: -26.54}
+  m_LocalRotation: {x: 0.043347985, y: -0, z: -0, w: 0.99906003}
+  m_LocalPosition: {x: 0, y: 7.36, z: -26.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.969, y: 0, z: 0}
 --- !u!114 &2101627408
 MonoBehaviour:
   m_ObjectHideFlags: 0
