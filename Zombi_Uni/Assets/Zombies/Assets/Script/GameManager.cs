@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,8 @@ public class GameManager : MonoBehaviour
     private InputAction next, prev;
     private InputAction jump;
     private int selectedIndex = 0;
+    public TMP_Text timerText;
+    private float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -57,5 +60,7 @@ public class GameManager : MonoBehaviour
             if (rb != null)
                 rb.AddForce(pushForce);
         }
+        timer += Time.deltaTime;
+        timerText.text = "Time: " + timer.ToString("F1") +"s";
     }
 }
